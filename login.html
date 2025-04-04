@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Cuteland</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-page">
+    <a href="index.php" class="home-logo">
+        <img src="Cuteland store titulo.png" alt="Logotipo de Cuteland">
+    </a>
+    <div class="login-container">
+        <div class="form-container">
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form" action="iniciar_sesion.php" method="POST">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <p>¿No tiene una cuenta? <a href="register.html">Regístrese aquí</a></p>
+        </div>
+    </div>
+</body>
+</html>

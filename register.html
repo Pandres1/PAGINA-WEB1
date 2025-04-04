@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse - Cuteland</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="register-page">
+    <a href="index.php" class="home-logo">
+        <img src="Cuteland store titulo.png" alt="Logotipo de Cuteland">
+    </a>
+    <div class="register-container">
+        <div class="form-container">
+            <h2>Registrarse</h2>
+            <form id="register-form" action="registrar_usuario.php" method="POST" onsubmit="return validarContrasenas()">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="text" id="correo" name="correo" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <label for="confirmar_contrasena">Confirmar Contraseña:</label>
+                <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
+
+                <input type="hidden" id="tipo_nivel" name="tipo_nivel" value="usuario">
+
+                <button type="submit">Registrarse</button>
+            </form>
+            <p>¿Ya posee una cuenta? <a href="login.html">Inicie sesión aquí</a></p>
+        </div>
+    </div>
+
+    <script>
+        function validarContrasenas() {
+            var contrasena = document.getElementById("contrasena").value;
+            var confirmar_contrasena = document.getElementById("confirmar_contrasena").value;
+
+            if (contrasena !== confirmar_contrasena) {
+                alert("Las contraseñas no coinciden.");
+                return false; // Evita que el formulario se envíe
+            }
+
+            return true; // Permite que el formulario se envíe
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+2025-04-02 21:17:46 - Usuario: pandres
+2025-04-02 21:17:46 - Contraseña: aadr0904
+2025-04-02 21:17:46 - Datos del usuario: Array
+(
+    [id] => 12
+    [nombre] => Abraham
+    [apellido] => Delgado
+    [usuario] => pandres
+    [correo] => pandresdelgad1@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-02 21:17:46 - Contraseña incorrecta.
+2025-04-02 21:17:51 - Usuario: fabianaecg
+2025-04-02 21:17:51 - Contraseña: aadr0904
+2025-04-02 21:17:51 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-02 21:17:51 - Contraseña incorrecta.

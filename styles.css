@@ -18,6 +18,9 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 80px; /* Para que el contenido no quede debajo del header */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Añadido desde la otra definición */
+    background-color: #f4f4f4; /* Añadido desde la otra definición */
+    color: #333; /* Añadido desde la otra definición */
 }
 
 /* Estilos del header */
@@ -214,7 +217,6 @@ main h1 {
     padding: 80px;
     background-color: #8e244d; /* Color de fondo */
     color: #ffffff; /* Color de texto */
-    
 }
 
 .product-preview h2 {
@@ -225,7 +227,7 @@ main h1 {
 
 .product-preview p {
     font-size: 1.1em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .product-grid {
@@ -234,6 +236,7 @@ main h1 {
     gap: 20px;
     max-width: 700px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .product-item {
@@ -260,7 +263,6 @@ main h1 {
     border: none;
     border-radius: 5px;
     font-size: 1.1em;
-    margin-top: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Transición para el efecto hover */
 }
@@ -294,7 +296,7 @@ main h1 {
 }
 
 .social-links h3, .contact-details h3 {
-    font-size: 2.3em;  
+    font-size: 2.3em;
     margin-bottom: 10px;
 }
 
@@ -369,8 +371,6 @@ main h1 {
     min-height: 100vh;
     margin: 0;
     background-color: #faf7e0;
-    
-    
 }
 
 .login-page .login-container, .register-page .register-container {
@@ -382,8 +382,6 @@ main h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 30px;
 }
-
-
 
 .login-page .form-container {
     padding-left: 30px;
@@ -584,7 +582,7 @@ main h1 {
 /* Botón de cerrar sesión */
 #logout {
     color: rgb(0, 0, 0);
-    
+
 }
 
 /* Estilos para perfil_usuario.php y configurar_usuario.php */
@@ -657,3 +655,233 @@ main h1 {
 .profile-logo img {
     height: 130px; /* Ajusta el tamaño del logo */
 }
+
+/* Estilos para la página de administración de productos (admin_productos.php) */
+.admin-container {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h1 {
+    color: #337ab7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-container p a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.admin-container p a:hover {
+    text-decoration: underline;
+}
+
+.product-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.product-list th,
+.product-list td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.product-list th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #555;
+}
+
+.product-list tr:hover {
+    background-color: #f9f9f9;
+}
+
+.actions a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.actions a.edit {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.actions a.edit:hover {
+    background-color: #4cae4c;
+}
+
+.actions a.delete {
+    background-color: #d9534f;
+    color: white;
+}
+
+.actions a.delete:hover {
+    background-color: #c9302c;
+}
+
+.no-products {
+    color: #777;
+    font-style: italic;
+}
+
+/* Estilos para la página de perfil de usuario (perfil_usuario.php) */
+.pagina-perfil {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pagina-perfil h1 {
+    color: #6c5ce7; /* Un tono de morado */
+    margin-bottom: 20px;
+}
+
+.pagina-perfil p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.pagina-perfil a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.pagina-perfil a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.admin-panel {
+    margin-top: 30px;
+    padding: 35px; /* Modificado a 35px según tu código */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.admin-panel h2 {
+    color: #2d3436; /* Un tono oscuro */
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.admin-panel a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cb85c; /* Verde para gestionar */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.admin-panel a:hover {
+    background-color: #4cae4c;
+}
+
+
+
+/* Estilos para el enlace "Mis Pedidos" en la barra de navegación */
+header .menu .mis-pedidos-header {
+    margin-left: 10px; /* Espacio entre el carrito y "Mis Pedidos" */
+    margin-right: 10px; /* Espacio entre "Mis Pedidos" y el carrito */
+}
+
+header .menu .mis-pedidos-header a {
+    color: #333; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    font-size: 1em; /* Tamaño de la fuente (ajusta según necesites) */
+    padding: 5px 10px; /* Espaciado interno alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    background-color: #f9f9f9; /* Color de fondo (opcional) */
+    border: 1px solid #ccc; /* Borde (opcional) */
+}
+
+header .menu .mis-pedidos-header a:hover {
+    background-color: #e0e0e0; /* Cambio de color de fondo al pasar el ratón (opcional) */
+    text-decoration: underline; /* Añadir subrayado al pasar el ratón (opcional) */
+}
+
+/* Estilos para el panel de administración en perfil_usuario.php */
+.user-admin-panel {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.user-admin-panel h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.user-admin-panel p a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #007bff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.user-admin-panel p a:hover {
+    background-color: #e0f7fa;
+}
+
+
+/* Estilos para el panel de administración en perfil_usuario.php */
+.user-admin-panel {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.user-admin-panel h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.user-admin-panel p a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #007bff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.user-admin-panel p a:hover {
+    background-color: #e0f7fa;
+}
+

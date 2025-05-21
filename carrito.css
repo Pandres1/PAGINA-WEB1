@@ -1,0 +1,148 @@
+/* Estilos básicos para la página del carrito */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* O la fuente que estés usando */
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.carrito-contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrito-items {
+    margin-bottom: 20px;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.carrito-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carrito-item .item-detalles {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Alinea la info verticalmente */
+    gap: 5px; /* Espacio entre nombre, precio y cantidad */
+}
+
+
+.carrito-item .item-cantidad {
+    display: flex;
+    align-items: center;
+}
+
+.carrito-item .item-cantidad label {
+    margin-right: 5px;
+}
+
+.carrito-item .item-cantidad input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.carrito-item .item-acciones {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Empuja las acciones al extremo derecho del item */
+    gap: 10px; /* Espacio entre los botones de acción del item (si los hubiera) */
+}
+
+.carrito-item .item-acciones button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 0.9em;
+}
+
+.carrito-item .item-acciones button:hover {
+    background-color: #eee;
+}
+
+.carrito-item .item-subtotal {
+    font-weight: bold;
+    margin-left: auto; /* Empuja el subtotal al extremo derecho del item */
+}
+
+.carrito-total {
+    text-align: right;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.carrito-acciones {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.carrito-acciones button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    margin-left: 0; /* Removemos el margen individual si usamos gap */
+}
+
+.carrito-acciones button:hover {
+    background-color: #0056b3;
+}
+
+.carrito-vacio {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #777;
+}
+
+/* Estilos para el botón de eliminar item */
+.eliminar-item-btn {
+    background: none;
+    border: none;
+    color: #dc3545; /* Rojo */
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.eliminar-item-btn:hover {
+    color: #c82333;
+}
+
+/* Estilos para el logo en la página del carrito */
+.logo-carrito-pagina {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo-carrito-pagina img {
+    height: 50px; /* Ajusta la altura del logo según necesites */
+}
+

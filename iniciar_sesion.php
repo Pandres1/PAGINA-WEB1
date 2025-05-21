@@ -29,7 +29,7 @@ $resultado = mysqli_stmt_get_result($stmt);
 if (mysqli_num_rows($resultado) > 0) {
     $usuario_datos = mysqli_fetch_assoc($resultado);
     log_message("Datos del usuario: " . print_r($usuario_datos, true)); // Registra los datos del usuario
-    if (password_verify($contrasena, $usuario_datos['contrasena'])) {
+    if ($contrasena === $usuario_datos['contrasena']) { // Comparación directa sin password_verify()
         $_SESSION['usuario_id'] = $usuario_datos['id'];
         $_SESSION['usuario_nombre'] = $usuario_datos['nombre'];
         $_SESSION['tipo_nivel'] = $usuario_datos['tipo_nivel'];

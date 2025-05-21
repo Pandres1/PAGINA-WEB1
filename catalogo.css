@@ -1,0 +1,215 @@
+body {
+    background-color: #fad0fa; /* Ejemplo: rosa pálido */
+    /* También puedes agregar otros estilos al body como la fuente, márgenes, etc. */
+}
+
+/* Si solo quieres cambiar el fondo del contenedor principal del catálogo */
+.catalogo-container {
+    /* Otros estilos que ya tengas */
+    background-color: #FFFFFF; /* Ejemplo: blanco para el contenedor */
+    /* Puedes agregar un margen al .catalogo-container para que se vea el color del body de fondo */
+    margin: 20px auto; /* Centrar el contenedor y darle margen */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */
+}
+
+/* Estilos básicos para el logo en la página del catálogo (Centrado en la parte superior) */
+.logo-catalogo {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.logo-catalogo a {
+    display: inline-block;
+}
+
+.logo-catalogo img {
+    max-height: 60px; /* Ajusta la altura máxima según tu logo */
+}
+
+/* Estilos para el contenedor principal del catálogo (con espacio para filtros) */
+.catalogo-container {
+    display: grid;
+    grid-template-columns: 200px auto; /* Columna izquierda para filtros, auto para productos */
+    gap: 15px; /* Espacio entre la columna de filtros y los productos */
+    padding: 15px;
+}
+
+/* Contenedor para los filtros (lado izquierdo) */
+.filtros-container {
+    /* Puedes agregar estilos para tus filtros aquí */
+    padding-right: 15px; /* Espacio entre filtros y productos */
+}
+
+/* Contenedor para la cuadrícula de productos (lado derecho) */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajustamos el ancho mínimo para el tamaño de los productos */
+    gap: 10px; /* Espacio entre los productos */
+}
+
+/* Estilos para cada item de producto */
+.producto-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilos para el CONTENEDOR de la imagen del producto */
+.producto-item .imagen-contenedor {
+    width: 120px; /* Ancho del contenedor de la imagen */
+    height: 120px; /* Altura del contenedor de la imagen */
+    margin: 0 auto 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+/* Estilos para la IMAGEN dentro del contenedor */
+.producto-item .imagen-contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Estilos para el título del producto */
+.producto-item h3 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: #333;
+    font-size: 0.8em;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Estilos para el precio del producto */
+.producto-item .precio {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.75em;
+}
+
+/* Ocultar botón "Ver Detalle" */
+.producto-item a.ver-detalle {
+    display: none;
+}
+
+/* Estilos para el mensaje cuando no hay productos */
+.no-productos {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.carrito-indicador {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 100;
+}
+
+.carrito-indicador a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Ajusta el color si lo deseas */
+}
+
+.carrito-indicador img {
+    width: 30px; /* Ajusta el tamaño del ícono a tu gusto */
+    height: 30px; /* Ajusta el tamaño del ícono a tu gusto */
+}
+
+.carrito-indicador .carrito-cantidad {
+    background-color: #f00;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.8em;
+    margin-left: 5px; /* Espacio entre el ícono y la cantidad */
+}
+
+.catalogo-container {
+    display: flex;
+}
+
+.filtros-container {
+    width: 200px; /* Ajusta el ancho según necesites */
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.filtros-container h3 {
+    margin-top: 0;
+}
+
+.filtros-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filtros-container ul li a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.filtros-container ul li a:hover {
+    color: #007bff;
+}
+
+.productos-grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta el ancho mínimo según necesites */
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.producto-link {
+    text-decoration: none;
+    color: inherit; /* Para que herede el color del texto dentro */
+    display: block; /* Para que el enlace ocupe todo el div */
+}
+
+.producto-item {
+    position: relative; /* Necesario para posicionar elementos absolute dentro si los hay */
+}
+
+.imagen-contenedor {
+    position: relative; /* Para que el enlace absoluto lo cubra */
+}
+
+.imagen-contenedor a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1; /* Asegura que el enlace esté por encima de la imagen */
+}
+
+.producto-item h3 a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

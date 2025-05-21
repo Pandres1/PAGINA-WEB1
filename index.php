@@ -15,7 +15,7 @@ if (isset($_SESSION['usuario_id'])) {
     $usuario_datos = mysqli_fetch_assoc($resultado);
 
     // Cerrar la conexión
-        mysqli_close($conexion);
+    mysqli_close($conexion);
 }
 ?>
 
@@ -26,6 +26,35 @@ if (isset($_SESSION['usuario_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuteland - Tu tienda de artículos de...</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos básicos para el ícono del carrito en la cabecera */
+        .carrito-header {
+            display: inline-block;
+            margin-left: 20px; /* Espacio entre el menú y el carrito */
+        }
+
+        .carrito-header a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #333; /* Ajusta el color según tu diseño */
+        }
+
+        .carrito-header img {
+            width: 30px; /* Ajusta el tamaño del ícono */
+            height: 30px; /* Ajusta el tamaño del ícono */
+        }
+
+        .mis-pedidos-header {
+            display: inline-block;
+            margin-left: 20px; /* Espacio entre el carrito y "Mis Pedidos" */
+        }
+
+        .mis-pedidos-header a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
 </head>
 <body class="index-page">
 
@@ -41,10 +70,20 @@ if (isset($_SESSION['usuario_id'])) {
         <nav class="menu">
             <ul class="main-nav">
                 <li><a href="#">INICIO</a></li>
-                <li><a href="#">CATÁLOGO</a></li> 
-                <li><a href="#sobre-nosotros">SOBRE NOSOTROS</a></li> 
-                <li><a href="#contacto">CONTACTO</a></li> 
+                <li><a href="catalogo.php">CATÁLOGO</a></li>
+                <li><a href="#sobre-nosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
+            <div class="carrito-header">
+                <a href="carrito.php">
+                    <img src="carrito.png" alt="Ir al Carrito">
+                </a>
+            </div>
+            <?php if (isset($_SESSION["usuario_id"])) { ?>
+                <div class="mis-pedidos-header">
+                    <a href="mis_pedidos.php">Mis Pedidos</a>
+                </div>
+            <?php } ?>
             <div class="profile-menu">
                 <img src="perfil-icono.png" alt="Perfil" class="profile-icon">
                 <ul class="dropdown">
@@ -66,7 +105,7 @@ if (isset($_SESSION['usuario_id'])) {
             <div class="text-container">
                 <h1>Bienvenido a Cuteland</h1>
             </div>
-            <a href="#" class="btn">Explorar Catálogo</a>
+            <a href="catalogo.php" class="btn">Explorar Catálogo</a>
         </section>
     </main>
 
@@ -94,7 +133,7 @@ if (isset($_SESSION['usuario_id'])) {
                 <h3>BOLSOS</h3>
                 <img src="bolso1.png" alt="Bolso 1">
             </div>
-            
+
             <div class="product-item">
                 <h3>BISUTERIA</h3>
                 <img src="bisuteria1.png" alt="Bisutería 1">
@@ -106,7 +145,7 @@ if (isset($_SESSION['usuario_id'])) {
                 <img src="bistueria2.png" alt="Anillos 1">
             </div>
         </div>
-        <button class="view-products-button">VER PRODUCTOS</button>
+        <a href="catalogo.php" class="view-products-button">VER PRODUCTOS</a>
     </section>
 
     <section class="contact-section" id="contacto">
@@ -136,13 +175,13 @@ if (isset($_SESSION['usuario_id'])) {
         document.addEventListener("DOMContentLoaded", function () {
             const profileMenu = document.querySelector(".profile-menu");
             const dropdown = document.querySelector(".dropdown");
-            
+
             // Alternar visibilidad del menú al hacer clic en el icono de perfil
             profileMenu.addEventListener("click", function (event) {
                 dropdown.classList.toggle("show");
                 event.stopPropagation(); // Evita que el clic cierre inmediatamente el menú
             });
-            
+
             // Cerrar el menú si se hace clic fuera de él
             document.addEventListener("click", function (event) {
                 if (!profileMenu.contains(event.target) && !dropdown.contains(event.target)) {

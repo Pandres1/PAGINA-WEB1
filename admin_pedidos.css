@@ -1,0 +1,69 @@
+.admin-container {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.admin-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.admin-orders-table th, .admin-orders-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.admin-orders-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.admin-orders-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.admin-orders-table td form {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.admin-orders-table td button {
+    background-color: #5cb85c; /* Verde para Completar */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.admin-orders-table td button[value="cancelar"] {
+    background-color: #d9534f; /* Rojo para Cancelar */
+}
+
+.admin-orders-table td button:hover {
+    opacity: 0.8;
+}

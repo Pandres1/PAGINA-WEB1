@@ -1,0 +1,123 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    color: #333;
+}
+
+/* Contenedor principal del formulario de administración */
+.admin-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.admin-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Contenedores de cada campo de formulario */
+.admin-container div {
+    margin-bottom: 15px;
+}
+
+/* Etiquetas de los campos */
+.admin-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilos para campos de texto, números, textarea y select */
+.admin-container input[type="text"],
+.admin-container input[type="number"],
+.admin-container textarea,
+.admin-container select {
+    width: calc(100% - 20px); /* Ocupa el ancho total menos el padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Estilo específico para input de tipo file */
+.admin-container input[type="file"] {
+    padding: 5px;
+}
+
+/* Ajuste de tamaño para textarea */
+.admin-container textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 80px;
+}
+
+/* Estilo para checkbox */
+.admin-container input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Para hacer el checkbox un poco más visible */
+}
+
+/* Botón de enviar formulario */
+.admin-container button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Efecto hover para el botón de enviar */
+.admin-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Párrafos dentro del contenedor admin */
+.admin-container p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Enlaces dentro de párrafos */
+.admin-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Efecto hover para enlaces */
+.admin-container p a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes de error */
+.error-message {
+    color: red;
+    background-color: #ffe0e0;
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Mensajes de éxito */
+.success-message {
+    color: green;
+    background-color: #e0ffe0;
+    border: 1px solid green;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}

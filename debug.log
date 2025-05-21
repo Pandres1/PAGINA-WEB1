@@ -26,3 +26,883 @@
 )
 
 2025-04-02 21:17:51 - Contraseña incorrecta.
+2025-04-07 16:12:55 - Usuario: fabianaecg
+2025-04-07 16:12:55 - Contraseña: aadr0904
+2025-04-07 16:12:55 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 16:12:55 - Contraseña incorrecta.
+2025-04-07 16:13:42 - Usuario: fabiana280100
+2025-04-07 16:13:42 - Contraseña: aadr0904
+2025-04-07 16:13:42 - Usuario incorrecto.
+2025-04-07 17:31:33 - Usuario: fabianaecg
+2025-04-07 17:31:33 - Contraseña: aadr0904
+2025-04-07 17:31:33 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 17:31:37 - Usuario: 
+2025-04-07 17:31:37 - Contraseña: 
+2025-04-07 17:31:37 - Usuario incorrecto.
+2025-04-07 17:31:58 - Usuario: pandres
+2025-04-07 17:31:58 - Contraseña: aadr0904
+2025-04-07 17:31:58 - Datos del usuario: Array
+(
+    [id] => 12
+    [nombre] => Abraham
+    [apellido] => Delgado
+    [usuario] => pandres
+    [correo] => pandresdelgad1@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 17:32:35 - Usuario: 
+2025-04-07 17:32:35 - Contraseña: 
+2025-04-07 17:32:35 - Usuario incorrecto.
+2025-04-07 17:32:39 - Usuario: fabianaecg
+2025-04-07 17:32:39 - Contraseña: aadr0904
+2025-04-07 17:32:39 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 17:32:41 - Usuario: 
+2025-04-07 17:32:41 - Contraseña: 
+2025-04-07 17:32:41 - Usuario incorrecto.
+2025-04-07 18:11:37 - Usuario: fabianaecg
+2025-04-07 18:11:37 - Contraseña: aadr0904
+2025-04-07 18:11:37 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 18:17:18 - Usuario: 
+2025-04-07 18:17:18 - Contraseña: 
+2025-04-07 18:17:18 - Usuario incorrecto.
+2025-04-07 18:17:48 - Usuario: 
+2025-04-07 18:17:48 - Contraseña: 
+2025-04-07 18:17:48 - Usuario incorrecto.
+2025-04-07 18:18:01 - Usuario: poppy01
+2025-04-07 18:18:01 - Contraseña: aadr0904
+2025-04-07 18:18:01 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => Poppy01
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 18:23:41 - Usuario: 
+2025-04-07 18:23:41 - Contraseña: 
+2025-04-07 18:23:41 - Usuario incorrecto.
+2025-04-07 18:23:47 - Usuario: poppy01
+2025-04-07 18:23:47 - Contraseña: aadr0904
+2025-04-07 18:23:47 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => Poppy01
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 18:56:50 - Usuario: 
+2025-04-07 18:56:50 - Contraseña: 
+2025-04-07 18:56:50 - Usuario incorrecto.
+2025-04-07 18:57:25 - Usuario: poppy2
+2025-04-07 18:57:25 - Contraseña: 0904aadr
+2025-04-07 18:57:25 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-07 18:57:42 - Usuario: 
+2025-04-07 18:57:42 - Contraseña: 
+2025-04-07 18:57:42 - Usuario incorrecto.
+2025-04-08 16:08:02 - Usuario: fabianaecg
+2025-04-08 16:08:02 - Contraseña: aadr0904
+2025-04-08 16:08:02 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-08 16:08:05 - Usuario: 
+2025-04-08 16:08:05 - Contraseña: 
+2025-04-08 16:08:05 - Usuario incorrecto.
+2025-04-08 18:08:49 - Usuario: pandres
+2025-04-08 18:08:49 - Contraseña: aadr0904
+2025-04-08 18:08:49 - Datos del usuario: Array
+(
+    [id] => 12
+    [nombre] => Abraham
+    [apellido] => Delgado
+    [usuario] => pandres
+    [correo] => pandresdelgad1@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-08 18:13:08 - Usuario: 
+2025-04-08 18:13:08 - Contraseña: 
+2025-04-08 18:13:08 - Usuario incorrecto.
+2025-04-08 18:13:13 - Usuario: fabianaecg
+2025-04-08 18:13:13 - Contraseña: aadr0904
+2025-04-08 18:13:13 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-08 18:13:52 - Usuario: 
+2025-04-08 18:13:52 - Contraseña: 
+2025-04-08 18:13:52 - Usuario incorrecto.
+2025-04-08 18:14:00 - Usuario: poppy02
+2025-04-08 18:14:00 - Contraseña: 0904aadr
+2025-04-08 18:14:00 - Usuario incorrecto.
+2025-04-08 18:14:07 - Usuario: poppy2
+2025-04-08 18:14:07 - Contraseña: 0904aadr
+2025-04-08 18:14:07 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-08 18:14:22 - Usuario: 
+2025-04-08 18:14:22 - Contraseña: 
+2025-04-08 18:14:22 - Usuario incorrecto.
+2025-04-08 18:14:27 - Usuario: fabianaecg
+2025-04-08 18:14:27 - Contraseña: aadr0904
+2025-04-08 18:14:27 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-08 19:33:51 - Usuario: 
+2025-04-08 19:33:51 - Contraseña: 
+2025-04-08 19:33:51 - Usuario incorrecto.
+2025-04-08 19:33:55 - Usuario: fabianaecg
+2025-04-08 19:33:55 - Contraseña: aadr0904
+2025-04-08 19:33:55 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-08 19:38:33 - Usuario: 
+2025-04-08 19:38:33 - Contraseña: 
+2025-04-08 19:38:33 - Usuario incorrecto.
+2025-04-08 19:38:38 - Usuario: fabianaecg
+2025-04-08 19:38:38 - Contraseña: aadr0904
+2025-04-08 19:38:38 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-08 19:44:10 - Usuario: 
+2025-04-08 19:44:10 - Contraseña: 
+2025-04-08 19:44:10 - Usuario incorrecto.
+2025-04-08 19:44:19 - Usuario: poppy2
+2025-04-08 19:44:19 - Contraseña: 0904aadr
+2025-04-08 19:44:19 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-08 19:44:25 - Usuario: 
+2025-04-08 19:44:25 - Contraseña: 
+2025-04-08 19:44:25 - Usuario incorrecto.
+2025-04-08 19:44:29 - Usuario: fabianaecg
+2025-04-08 19:44:29 - Contraseña: aadr0904
+2025-04-08 19:44:29 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-08 20:10:44 - Usuario: 
+2025-04-08 20:10:44 - Contraseña: 
+2025-04-08 20:10:44 - Usuario incorrecto.
+2025-04-08 20:12:31 - Usuario: 
+2025-04-08 20:12:31 - Contraseña: 
+2025-04-08 20:12:31 - Usuario incorrecto.
+2025-04-08 20:12:41 - Usuario: kluzelol
+2025-04-08 20:12:41 - Contraseña: 1234567890
+2025-04-08 20:12:41 - Datos del usuario: Array
+(
+    [id] => 16
+    [nombre] => Arnolfo
+    [apellido] => Ardila
+    [usuario] => Kluzelol
+    [correo] => elv10l4g4t0s@gmail.com
+    [contrasena] => 123456789
+    [tipo_nivel] => usuario
+)
+
+2025-04-08 20:12:41 - Contraseña incorrecta.
+2025-04-08 20:12:50 - Usuario: kluzelol
+2025-04-08 20:12:50 - Contraseña: 123456789
+2025-04-08 20:12:50 - Datos del usuario: Array
+(
+    [id] => 16
+    [nombre] => Arnolfo
+    [apellido] => Ardila
+    [usuario] => Kluzelol
+    [correo] => elv10l4g4t0s@gmail.com
+    [contrasena] => 123456789
+    [tipo_nivel] => usuario
+)
+
+2025-04-08 20:14:11 - Usuario: 
+2025-04-08 20:14:11 - Contraseña: 
+2025-04-08 20:14:11 - Usuario incorrecto.
+2025-04-08 20:14:15 - Usuario: fabianaecg
+2025-04-08 20:14:15 - Contraseña: aadr0904
+2025-04-08 20:14:15 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-09 15:03:00 - Usuario: 
+2025-04-09 15:03:00 - Contraseña: 
+2025-04-09 15:03:00 - Usuario incorrecto.
+2025-04-09 15:03:13 - Usuario: fabianaecg
+2025-04-09 15:03:13 - Contraseña: aadr0904
+2025-04-09 15:03:13 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-09 15:05:54 - Usuario: 
+2025-04-09 15:05:54 - Contraseña: 
+2025-04-09 15:05:54 - Usuario incorrecto.
+2025-04-09 15:06:05 - Usuario: poppy2
+2025-04-09 15:06:05 - Contraseña: 0904aadr
+2025-04-09 15:06:05 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-09 16:17:43 - Usuario: 
+2025-04-09 16:17:43 - Contraseña: 
+2025-04-09 16:17:43 - Usuario incorrecto.
+2025-04-09 17:50:58 - Usuario: fabianaecg
+2025-04-09 17:50:58 - Contraseña: aadr0904
+2025-04-09 17:50:58 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-09 17:51:40 - Usuario: 
+2025-04-09 17:51:40 - Contraseña: 
+2025-04-09 17:51:40 - Usuario incorrecto.
+2025-04-10 15:06:55 - Usuario: 
+2025-04-10 15:06:55 - Contraseña: 
+2025-04-10 15:06:55 - Usuario incorrecto.
+2025-04-10 15:07:29 - Usuario: jorgesilva01
+2025-04-10 15:07:29 - Contraseña: 12345
+2025-04-10 15:07:29 - Datos del usuario: Array
+(
+    [id] => 17
+    [nombre] => Jorge
+    [apellido] => sILVA
+    [usuario] => jorgesilva01
+    [correo] => afjkfjfalskfj@gmail.com
+    [contrasena] => 12345
+    [tipo_nivel] => usuario
+)
+
+2025-04-10 15:07:48 - Usuario: 
+2025-04-10 15:07:48 - Contraseña: 
+2025-04-10 15:07:48 - Usuario incorrecto.
+2025-04-10 15:12:53 - Usuario: jorgesilva01
+2025-04-10 15:12:53 - Contraseña: 12345
+2025-04-10 15:12:53 - Datos del usuario: Array
+(
+    [id] => 17
+    [nombre] => Jorge
+    [apellido] => sILVA
+    [usuario] => jorgesilva01
+    [correo] => afjkfjfalskfj@gmail.com
+    [contrasena] => 12345
+    [tipo_nivel] => usuario
+)
+
+2025-04-11 18:06:11 - Usuario: 
+2025-04-11 18:06:11 - Contraseña: 
+2025-04-11 18:06:11 - Usuario incorrecto.
+2025-04-11 18:06:16 - Usuario: fabianaecg
+2025-04-11 18:06:16 - Contraseña: aadr0904
+2025-04-11 18:06:16 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-11 18:38:16 - Usuario: 
+2025-04-11 18:38:16 - Contraseña: 
+2025-04-11 18:38:16 - Usuario incorrecto.
+2025-04-18 17:26:05 - Usuario: fabianaecg
+2025-04-18 17:26:05 - Contraseña: aadr0904
+2025-04-18 17:26:05 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-18 19:01:03 - Usuario: fabianaecg
+2025-04-18 19:01:03 - Contraseña: aadr0904
+2025-04-18 19:01:03 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-18 19:13:24 - Usuario: 
+2025-04-18 19:13:24 - Contraseña: 
+2025-04-18 19:13:24 - Usuario incorrecto.
+2025-04-18 19:13:28 - Usuario: fabianaecg
+2025-04-18 19:13:28 - Contraseña: aadr0904
+2025-04-18 19:13:28 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-18 21:48:50 - Usuario: 
+2025-04-18 21:48:50 - Contraseña: 
+2025-04-18 21:48:50 - Usuario incorrecto.
+2025-04-18 21:49:24 - Usuario: fabianaecg
+2025-04-18 21:49:24 - Contraseña: aadr0904
+2025-04-18 21:49:24 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-18 23:15:55 - Usuario: 
+2025-04-18 23:15:55 - Contraseña: 
+2025-04-18 23:15:55 - Usuario incorrecto.
+2025-04-18 23:16:08 - Usuario: poppy2
+2025-04-18 23:16:08 - Contraseña: 0904aadr094
+2025-04-18 23:16:08 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-18 23:16:08 - Contraseña incorrecta.
+2025-04-18 23:16:14 - Usuario: poppy2
+2025-04-18 23:16:14 - Contraseña: 0904aadr
+2025-04-18 23:16:14 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-18 23:35:17 - Usuario: 
+2025-04-18 23:35:17 - Contraseña: 
+2025-04-18 23:35:17 - Usuario incorrecto.
+2025-04-18 23:35:23 - Usuario: fabianaecg
+2025-04-18 23:35:23 - Contraseña: aadr0904
+2025-04-18 23:35:23 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-18 23:36:44 - Usuario: 
+2025-04-18 23:36:44 - Contraseña: 
+2025-04-18 23:36:44 - Usuario incorrecto.
+2025-04-19 15:49:51 - Usuario: fabianaecg
+2025-04-19 15:49:51 - Contraseña: aadr0904
+2025-04-19 15:49:51 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-19 19:24:54 - Usuario: 
+2025-04-19 19:24:54 - Contraseña: 
+2025-04-19 19:24:54 - Usuario incorrecto.
+2025-04-19 19:25:10 - Usuario: fabianaecg
+2025-04-19 19:25:10 - Contraseña: aadr0904
+2025-04-19 19:25:10 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-19 21:46:11 - Usuario: 
+2025-04-19 21:46:11 - Contraseña: 
+2025-04-19 21:46:11 - Usuario incorrecto.
+2025-04-19 21:47:55 - Usuario: 
+2025-04-19 21:47:55 - Contraseña: 
+2025-04-19 21:47:55 - Usuario incorrecto.
+2025-04-19 21:48:01 - Usuario: bermer
+2025-04-19 21:48:01 - Contraseña: aadr0904
+2025-04-19 21:48:01 - Datos del usuario: Array
+(
+    [id] => 18
+    [nombre] => Brandon 
+    [apellido] => Lozano
+    [usuario] => Bermer
+    [correo] => bermerosiosi@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+
+2025-04-19 21:48:59 - Usuario: 
+2025-04-19 21:48:59 - Contraseña: 
+2025-04-19 21:48:59 - Usuario incorrecto.
+2025-04-19 21:49:07 - Usuario: fabianaecg
+2025-04-19 21:49:07 - Contraseña: aadr0904
+2025-04-19 21:49:07 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-19 21:49:51 - Usuario: 
+2025-04-19 21:49:51 - Contraseña: 
+2025-04-19 21:49:51 - Usuario incorrecto.
+2025-04-20 02:15:43 - Usuario: fabianaecg
+2025-04-20 02:15:43 - Contraseña: aadr0904
+2025-04-20 02:15:43 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-20 14:03:53 - Usuario: 
+2025-04-20 14:03:53 - Contraseña: 
+2025-04-20 14:03:53 - Usuario incorrecto.
+2025-04-20 14:04:09 - Usuario: fabianaecg
+2025-04-20 14:04:09 - Contraseña: aadr0904
+2025-04-20 14:04:09 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-20 15:21:09 - Usuario: 
+2025-04-20 15:21:09 - Contraseña: 
+2025-04-20 15:21:09 - Usuario incorrecto.
+2025-04-20 15:21:22 - Usuario: fabianaecg
+2025-04-20 15:21:22 - Contraseña: aadr0904
+2025-04-20 15:21:22 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-20 15:21:41 - Usuario: 
+2025-04-20 15:21:41 - Contraseña: 
+2025-04-20 15:21:41 - Usuario incorrecto.
+2025-04-20 15:21:54 - Usuario: poppy2
+2025-04-20 15:21:54 - Contraseña: 0904aadr
+2025-04-20 15:21:54 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-20 15:22:46 - Usuario: 
+2025-04-20 15:22:46 - Contraseña: 
+2025-04-20 15:22:46 - Usuario incorrecto.
+2025-04-20 15:22:50 - Usuario: fabianaecg
+2025-04-20 15:22:50 - Contraseña: aadr0904
+2025-04-20 15:22:50 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-20 15:43:08 - Usuario: 
+2025-04-20 15:43:08 - Contraseña: 
+2025-04-20 15:43:08 - Usuario incorrecto.
+2025-04-20 15:43:14 - Usuario: poppy2
+2025-04-20 15:43:14 - Contraseña: 0904aadr
+2025-04-20 15:43:14 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-04-20 15:43:17 - Usuario: 
+2025-04-20 15:43:17 - Contraseña: 
+2025-04-20 15:43:17 - Usuario incorrecto.
+2025-04-20 15:43:22 - Usuario: fabianaecg
+2025-04-20 15:43:22 - Contraseña: aadr0904
+2025-04-20 15:43:22 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-20 16:30:33 - Usuario: 
+2025-04-20 16:30:33 - Contraseña: 
+2025-04-20 16:30:33 - Usuario incorrecto.
+2025-04-20 16:30:39 - Usuario: fabianaecg
+2025-04-20 16:30:39 - Contraseña: aadr0904
+2025-04-20 16:30:39 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-21 16:58:16 - Usuario: 
+2025-04-21 16:58:16 - Contraseña: 
+2025-04-21 16:58:16 - Usuario incorrecto.
+2025-04-21 16:58:21 - Usuario: fabianaecg
+2025-04-21 16:58:21 - Contraseña: aadr0904
+2025-04-21 16:58:21 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-04-22 18:18:10 - Usuario: 
+2025-04-22 18:18:10 - Contraseña: 
+2025-04-22 18:18:10 - Usuario incorrecto.
+2025-04-22 18:19:49 - Usuario: fabianaecg
+2025-04-22 18:19:49 - Contraseña: aadr0904
+2025-04-22 18:19:49 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-08 03:41:24 - Usuario: 
+2025-05-08 03:41:24 - Contraseña: 
+2025-05-08 03:41:24 - Usuario incorrecto.
+2025-05-08 03:47:11 - Usuario: fabianaecg
+2025-05-08 03:47:11 - Contraseña: aadr0904
+2025-05-08 03:47:11 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-08 03:51:55 - Usuario: 
+2025-05-08 03:51:55 - Contraseña: 
+2025-05-08 03:51:55 - Usuario incorrecto.
+2025-05-08 03:52:02 - Usuario: poppy2
+2025-05-08 03:52:02 - Contraseña: 0904aadr
+2025-05-08 03:52:02 - Datos del usuario: Array
+(
+    [id] => 15
+    [nombre] => Pastora
+    [apellido] => Rodriguez
+    [usuario] => poppy2
+    [correo] => pandresdelgad4@gmail.com
+    [contrasena] => 0904aadr
+    [tipo_nivel] => usuario
+)
+
+2025-05-20 16:13:08 - Usuario: 
+2025-05-20 16:13:08 - Contraseña: 
+2025-05-20 16:13:08 - Usuario incorrecto.
+2025-05-20 16:13:12 - Usuario: fabianaecg
+2025-05-20 16:13:12 - Contraseña: aadr0904
+2025-05-20 16:13:12 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-20 16:17:26 - Usuario: fabianaecg
+2025-05-20 16:17:26 - Contraseña: aadr0904
+2025-05-20 16:17:26 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-20 16:26:09 - Usuario: 
+2025-05-20 16:26:09 - Contraseña: 
+2025-05-20 16:26:09 - Usuario incorrecto.
+2025-05-20 16:26:13 - Usuario: fabianaecg
+2025-05-20 16:26:13 - Contraseña: aadr0904
+2025-05-20 16:26:13 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-20 16:27:39 - Usuario: fabianaecg
+2025-05-20 16:27:39 - Contraseña: aadr0904
+2025-05-20 16:27:39 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-21 02:45:19 - Usuario: 
+2025-05-21 02:45:19 - Contraseña: 
+2025-05-21 02:45:19 - Usuario incorrecto.
+2025-05-21 02:45:28 - Usuario: pandres
+2025-05-21 02:45:28 - Contraseña: aadr0904
+2025-05-21 02:45:28 - Datos del usuario: Array
+(
+    [id] => 12
+    [nombre] => Abraham
+    [apellido] => Delgado
+    [usuario] => pandres
+    [correo] => pandresdelgad1@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => admin
+)
+
+2025-05-21 02:45:49 - Usuario: 
+2025-05-21 02:45:49 - Contraseña: 
+2025-05-21 02:45:49 - Usuario incorrecto.
+2025-05-21 02:45:54 - Usuario: fabianaecg
+2025-05-21 02:45:54 - Contraseña: aadr0904
+2025-05-21 02:45:54 - Datos del usuario: Array
+(
+    [id] => 1
+    [nombre] => Fabiana
+    [apellido] => Castillo
+    [usuario] => fabianaecg
+    [correo] => fabiana210800@gmail.com
+    [contrasena] => aadr0904
+    [tipo_nivel] => usuario
+)
+

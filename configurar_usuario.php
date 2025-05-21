@@ -25,7 +25,9 @@ mysqli_close($conexion);
 </head>
 <body>
     <div class="profile-logo">
-        <img src="logo texto.png" alt="Logo">
+        <a href="index.php">
+            <img src="logo.jpg" alt="Logo">
+        </a>
     </div>
     <div class="container configuracion-container">
         <h1>Configuraciones</h1>
@@ -41,10 +43,10 @@ mysqli_close($conexion);
 
         <h2>Actualizar Contraseña</h2>
         <form action="actualizar_contrasena.php" method="POST">
-            <label for="contrasena_actual">Contraseña Actual:</label>
-            <input type="password" id="contrasena_actual" name="contrasena_actual">
+            <label for="contrasena_actual_password">Contraseña Actual:</label>
+            <input type="password" id="contrasena_actual_password" name="contrasena_actual" required>
             <label for="nueva_contrasena">Nueva Contraseña:</label>
-            <input type="password" id="nueva_contrasena" name="nueva_contrasena">
+            <input type="password" id="nueva_contrasena" name="nueva_contrasena" required>
             <button type="submit">Actualizar Contraseña</button>
         </form>
 
